@@ -1000,6 +1000,18 @@ color: #0A1B30;
     align-items: center;
 }
 
+@media (max-width:735px) {
+    .rm-card {
+        border-radius: 10px;
+        border: 0.7px solid rgba(191, 205, 255, 0.5);
+        width: 180px;
+        height: 180px;
+        padding: 18px 15px;
+        text-align: left;
+        color: #fff;
+    }
+}
+
 /* Tokenomics Section */
 
 #tokenomics {
