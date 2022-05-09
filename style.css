@@ -1153,12 +1153,14 @@ color: #0A1B30;
 #footer {
     padding: 45px 10%;
     background: #232325;
+    max-width: 100%;
 }
 
 #footer-top {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    max-width: 100%;
 }
 
 .link-panel {
@@ -1225,9 +1227,11 @@ color: #0A1B30;
     #footer {
         padding: 45px 5%;
         background: #232325;
+        width: 100%;
     }
 
     #footer-top {
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
