@@ -862,7 +862,7 @@ color: #0A1B30;
     padding: 0.3rem 1.5rem;
 }
 
-@media (max-width:960px) {
+@media (max-width:942px) {
 
     #ecosystem .row {
         display: flex;
@@ -878,22 +878,32 @@ color: #0A1B30;
     .card-1 {
         border-radius: 10px;
         height: 250px;
+        width: 50vh;
         padding: 1rem;
         margin-bottom: 1rem;
         background: #14F195;
     }
 
+    .card-2 {
+        width: 50vh;
+    }
+
     .card-3 {
         border-radius: 10px;
         height: 250px;
+        width: 50vh;
         padding: 1rem;
         margin-bottom: 1rem;
         background: #14F195;
     }
+
+    .card-4 {
+        width: 50vh;
+    }
     
     .card-title {
         font-weight: 600;
-        font-size: 1rem;
+        font-size: 1.2rem;
         line-height: 18px;
         display: flex;
         align-items: center;
@@ -904,8 +914,8 @@ color: #0A1B30;
 
     .card-text {
         font-weight: 500;
-        font-size: 10px;
-        line-height: 24px;
+        font-size: 15px;
+        line-height: 25px;
         /* or 150% */
         letter-spacing: 0.02em;
         color: #0A1B30;
@@ -926,6 +936,7 @@ color: #0A1B30;
     .last-card {
         border-radius: 10px;
         height: 250px;
+        width: 50vh;
         padding: 1rem;
         background: #99B6FD;
     }
