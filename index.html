@@ -39,37 +39,20 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"><img src="images/icons/logo-icon.png" alt="" class="logo-2"></span>
                   </button>
-                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas offcanvas-start" style="background-color: #000;" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                      <div class="offcanvas-title" id="offcanvasNavbarLabel"><img src="images/sc_logo.svg" alt="" class="log" style="width:50%;"></div>
                       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
                       <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                          </a>
-                          <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                              <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                          </ul>
-                        </li>
+                        <a href="" class="top-link">About</a>
+                        <a href="" class="top-link">Eco-System</a>
+                        <a href="" class="top-link">Solana Cash</a>
+                        <a href="" class="top-link">Roadmap</a>
+                        <a href="" class="top-link">Tokenomics</a>
+                        <a href="" class="top-link">Staking</a>
                       </ul>
-                      <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                      </form>
                     </div>
                   </div>
             </div>
@@ -206,7 +189,7 @@
 
     <!-- Chart -->
 
-    <section id="chart">
+    <!-- <section id="chart">
 
         <p class="features-info">Comparison chart</p>
 
@@ -285,7 +268,88 @@
                         Agreement</td></tr>
                 </table>
             </div>
-          </div>
+          </div> -->
+
+          <section id="chart">
+
+            <p class="features-info">Comparison chart</p>
+    
+            <p class="sub-info">
+                Blockchain Comparison Chart, Why Solana?
+            </p>
+    
+            <div class="row">
+                <div class="col">
+                    <table class="table table-borderless table-start">
+                        <tr><th>List of features</th></tr>
+                        <tr><td>Transaction Per Seconds</td></tr>
+                        <tr><td>Fees</td></tr>
+                        <tr><td>Block Time</td></tr>
+                        <tr><td>Consensus Mechanism</td></tr>
+                    </table>
+                </div>
+                <div class="col col-active">
+                    <table class="table tab-active table-borderless">
+                        <tr><th>Solana</th></tr>
+                        <tr><td>59,000 tps</td></tr>
+                        <tr><td>$0.00001</td></tr>
+                        <tr><td>0.4 sec 
+                            (1 block)</td></tr>
+                        <tr><td>Proof of Stake</td></tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <table class="table table-borderless">
+                        <tr><th>Ethereum</th></tr>
+                        <tr><td>17 tps</td></tr>
+                        <tr><td>$ 2</td></tr>
+                        <tr><td>5 min
+                            (35 blocks)</td></tr>
+                        <tr><td>Proof of Work</td></tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <table class="table table-borderless">
+                        <tr><th>EOS</th></tr>
+                        <tr><td>3900 tps</td></tr>
+                        <tr><td>Free</td></tr>
+                        <tr><td>2.5 mins
+                            (2/3 of BPs)</td></tr>
+                        <tr><td>Delegated Proof
+                            of Stake</td></tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <table class="table table-borderless">
+                        <tr><th>Cardano</th></tr>
+                        <tr><td>~250 tps</td></tr>
+                        <tr><td>$0.002</td></tr>
+                        <tr><td>~2 min</td></tr>
+                        <tr><td>Ouroboros Proof 
+                            of Stake</td></tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <table class="table table-borderless">
+                        <tr><th>Tezos</th></tr>
+                        <tr><td>50 tps</td></tr>
+                        <tr><td>$0.00232</td></tr>
+                        <tr><td>30 min</td></tr>
+                        <tr><td>Liquid Proof of
+                            Stake</td></tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <table class="table table-borderless">
+                        <tr><th>Stellar</th></tr>
+                        <tr><td>2000 tps</td></tr>
+                        <tr><td>$0.000001</td></tr>
+                        <tr><td>4 sec</td></tr>
+                        <tr><td>Federated Byzantine
+                            Agreement</td></tr>
+                    </table>
+                </div>
+              </div>
 
           <!-- Carousel -->
         

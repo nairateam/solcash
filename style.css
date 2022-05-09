@@ -52,7 +52,7 @@ nav {
     display: none;
 }
 
-ul {
+nav ul {
     margin-top: 10px;
 }
 
@@ -617,6 +617,70 @@ span > p {
 
 /* Chart */
 
+/* #chart {
+    background: #000;
+    padding: 45px 8%;
+}
+
+#chart .row {
+    --bs-gutter-x: 0.2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+#chart .row::-webkit-scrollbar {
+    display: none;
+}
+
+
+.row > .col {
+    flex: 35px;
+}
+
+.table {
+    text-align: center;
+    color: #fff;
+    margin: 1.8rem auto;
+}
+
+.table > :not(caption) > * > * {
+    padding: 0.8rem;
+}
+
+.table-start {
+    text-align: left;
+    padding: 0 32px;
+}
+
+.table-start td {
+    font-size: 12px;
+}
+
+.tab-active {
+    color: #000;
+}
+
+tr {
+    padding: 3rem;
+}
+
+td {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    padding-top: 25px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 25px;
+}
+
+.col-active {
+    border: 1px solid #14F195;
+    background: #14F195;
+    border-radius: 10px;
+} */
+
 #chart {
     background: #000;
     padding: 45px 8%;
@@ -680,6 +744,7 @@ td {
     background: #14F195;
     border-radius: 10px;
 }
+
 
 /* Carousel */
 
