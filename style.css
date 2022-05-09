@@ -794,7 +794,7 @@ td {
 }
 
 .last-cd {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
 }
 
@@ -937,7 +937,8 @@ color: #0A1B30;
 
     .last-cd {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
     }
     
     
