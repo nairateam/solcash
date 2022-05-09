@@ -862,13 +862,17 @@ color: #0A1B30;
     padding: 0.3rem 1.5rem;
 }
 
-@media (max-width:760px) {
+@media (max-width:960px) {
 
     #ecosystem .row {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    #ecosystem .col {
+        width: 100%;
     }
 
     .card-1 {
@@ -943,6 +947,8 @@ color: #0A1B30;
         display: block;
         width: 100%;
     }
+
+
     
     
     
