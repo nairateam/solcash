@@ -1237,6 +1237,12 @@ color: #0A1B30;
         justify-content: flex-start;
     }
 
+    .link-panel {
+        display: flex;
+        flex-direction: column;
+        padding: 0 5%;
+    }
+
     .panel-top {
         display: flex;
         flex-direction: row;
