@@ -76,6 +76,18 @@ nav ul {
 
 }
 
+.stake:hover {
+    color: #fff;
+    border: 0px solid;
+    background: linear-gradient(261.78deg, #9945FF -1.89%, #14F195 99.57%);
+    width: 170px;
+    height: 50px;
+    font-weight: 500;
+    line-height: 19px;
+    border-radius: 10px;
+
+}
+
 @media (max-width: 1200px) {
     ul {
         display: none;
@@ -181,9 +193,16 @@ nav ul {
     border-radius: 10px;
 }
 
-/* .lite-paper:hover {
-
-} */
+.lite-paper:hover {
+    color: #fff;
+    box-sizing: border-box;
+    width: 10.5rem;
+    height: 4rem;
+    margin: 0.5rem;
+    background: linear-gradient(261.78deg, #9945FF -1.89%, #14F195 99.57%);
+    border: 0px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
 
 .pitch-deck {
     color: #fff;
@@ -195,9 +214,16 @@ nav ul {
     border-radius: 10px;
 }
 
-/* .pitch-deck:hover {
-
-} */
+.pitch-deck:hover {
+    color: #000;
+    background: #fff;
+    box-sizing: border-box;
+    width: 10.5rem;
+    height: 4rem;
+    margin: 0.5rem;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
 
 #hero-icon {
     display: flex;
@@ -633,7 +659,7 @@ span > p {
     #chart .row {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
     } 
 }
@@ -704,7 +730,7 @@ td {
     background: #232325;
     padding: 45px 8%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     --bs-gutter-x: 0.2rem;
     flex-wrap: nowrap;
@@ -812,6 +838,16 @@ color: #0A1B30;
     top: 170px;
 }
 
+.btn-card:hover {
+    color: #000;
+    background: #fff;
+    border-radius: 30px;
+    padding: 0.3rem 1.5rem;
+    position: absolute;
+    left: 20px;
+    top: 170px;
+}
+
 .btn-cardd {
     color: #fff;
     background: #0A1B30;
@@ -819,9 +855,16 @@ color: #0A1B30;
     padding: 0.3rem 1.5rem;
 }
 
+.btn-cardd:hover {
+    color: #000;
+    background: #fff;
+    border-radius: 30px;
+    padding: 0.3rem 1.5rem;
+}
+
 @media (max-width:960px) {
 
-    .row {
+    #ecosystem .row {
         display: flex;
         flex-direction: column;
         justify-content: center;
