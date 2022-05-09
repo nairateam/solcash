@@ -1148,7 +1148,7 @@ color: #0A1B30;
     border-radius: 10px;    
 }
 
-@media (max-width) {
+@media (max-width:620px) {
     #partners .stake-p {
         font-weight: 600;
         font-size: 18px;
@@ -1160,7 +1160,7 @@ color: #0A1B30;
         color: #FFFFFF;
         padding-bottom: 38px;
     }
-
+}
 /* Footer */
 
 #footer {
