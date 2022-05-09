@@ -1000,8 +1000,21 @@ color: #0A1B30;
     align-items: center;
 }
 
+#roadmapp {
+    display: none;
+}
+
 @media (max-width:735px) {
-    .rm-card {
+
+    #roadmapp {
+        display: block;
+    }
+
+    #roadmap {
+        display: none;
+    }
+
+    /* .rm-card {
         border-radius: 10px;
         border: 0.7px solid rgba(191, 205, 255, 0.5);
         width: 180px;
@@ -1009,7 +1022,7 @@ color: #0A1B30;
         padding: 18px 15px;
         text-align: left;
         color: #fff;
-    }
+    } */
 }
 
 /* Tokenomics Section */
