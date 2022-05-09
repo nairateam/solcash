@@ -1285,6 +1285,17 @@ color: #0A1B30;
         justify-content: flex-start;
     }
 
+    #footer a {
+        text-decoration: none;
+        margin: 8px 0;
+        text-align: left;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* identical to box height, or 171% */
+        color: #FFFFFF;
+    }
+
     .link-panel {
         display: flex;
         flex-direction: column;
