@@ -1222,6 +1222,11 @@ color: #0A1B30;
 
 @media (max-width:896px) {
 
+    #footer {
+        padding: 45px 5%;
+        background: #232325;
+    }
+
     #footer-top {
         display: flex;
         flex-direction: column;
