@@ -794,7 +794,7 @@ td {
 }
 
 .last-cd {
-    /* display: flex; */
+    display: flex;
     justify-content: space-between;
 }
 
@@ -862,7 +862,7 @@ color: #0A1B30;
     padding: 0.3rem 1.5rem;
 }
 
-@media (max-width:960px) {
+@media (max-width:760px) {
 
     #ecosystem .row {
         display: flex;
@@ -921,7 +921,7 @@ color: #0A1B30;
 
     .last-card {
         border-radius: 10px;
-        height: 290px;
+        height: 250px;
         padding: 1rem;
         background: #99B6FD;
     }
@@ -936,9 +936,12 @@ color: #0A1B30;
     }
 
     .last-cd {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        display: block;
+    }
+
+    #group-card {
+        display: block;
+        width: 100%;
     }
     
     
