@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SolanaCash.io - Homepage</title>
+    <link rel="icon" type="image/x-icon" href="images/icons/logo-icon.png">
 
     <!-- Bootstrap -->
 
@@ -23,9 +24,23 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <script src="https://unpkg.com/scrollreveal"></script>
 
 </head>
 <body>
+
+    <!-- Stiky Alert -->
+
+    <div class="alert alert-warning alert-dismissible fade show stiky-note" role="alert">
+        <p>Our Public sale is live</p>
+        <span class="btn-stik">
+           <a href="https://publicsale.solanacash.io"> <button class="btn stik">Buy Now</button></a>
+            <button type="button" class="nill" data-bs-dismiss="alert" aria-label="Close"><i class="fa fa-xmark"></i></button>
+        </span>
+    </div>
+
+    <!-- End of Stiky Alert -->
+
 
     <section id="head">
     <!-- Navigation Bar -->
@@ -42,34 +57,36 @@
                   <div class="offcanvas offcanvas-start" style="background-color: #000;" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                       <div class="offcanvas-title" id="offcanvasNavbarLabel"><img src="images/sc_logo.svg" alt="" class="log" style="width:100%;"></div>
-                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      <span type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa fa-xmark fa-2x"></i></span>
                     </div>
                     <div class="offcanvas-body">
                       <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <a href="" class="top-link">About</a>
-                        <a href="" class="top-link">Eco-System</a>
-                        <a href="" class="top-link">Solana Cash</a>
-                        <a href="" class="top-link">Roadmap</a>
-                        <a href="" class="top-link">Tokenomics</a>
-                        <a href="" class="top-link">Staking</a>
+                        <a href="#features" class="top-link">Our features</a>
+                        <a href="#ecosystem" class="top-link">Eco-System</a>
+                        <!-- <a href="" class="top-link">Solana Cash</a> -->
+                        <a href="#roadmap" class="top-link">Roadmap</a>
+                        <a href="#tokenomics" class="top-link">Tokenomics</a>
+                        <a href="https://staking.solanacash.io/" class="top-link">Staking</a>
                       </ul>
                     </div>
                   </div>
             </div>
 
             <ul>
-                <a href="" class="top-link">About</a>
-                <a href="" class="top-link">Eco-System</a>
-                <a href="" class="top-link">Solana Cash</a>
-                <a href="" class="top-link">Roadmap</a>
-                <a href="" class="top-link">Tokenomics</a>
-                <a href="" class="top-link">Staking</a>
+                <a href="#features" class="top-link">Our Features</a>
+                <a href="#ecosystem" class="top-link">Eco-System</a>
+                <!-- <a href="" class="top-link">Solana Cash</a> -->
+                <a href="#roadmap" class="top-link">Roadmap</a>
+                <a href="#tokenomics" class="top-link">Tokenomics</a>
+                <a href="https://staking.solanacash.io/" class="top-link">Staking</a>
             </ul>
 
-            <button type="button" class="btn stake">Stake Now</button>
+          <a href="https://staking.solanacash.io/">  <button type="button" class="btn stake">Stake Now</button>  </a>
           </nav>
           
     </div>
+
+    <!-- End of Navigation Bar -->
 
     <!-- Hero Section -->
 
@@ -85,20 +102,22 @@
         <div id="hero-bottom">
             <p class="hero-view">View Our:</p>
             <span class="inline-buttons">
-                <button type="button" class="btn lite-paper">Litepaper</button>
-                <button type="button" class="btn pitch-deck">Pitch Deck</button>
+                 <a href="https://solanacash.gitbook.io/solana-cash/abstract/what-is-solana-cash"><button type="button" class="btn lite-paper">Litepaper</button> </a>
+                 <a href="https://drive.google.com/file/d/1XC-2v7UXVqsUbNdZQmp-Bh4dNKHLM04B/view?usp=sharing"><button type="button" class="btn pitch-deck">Pitch Deck</button> </a>
             </span>
 
             <p class="hero-follow">Follow Us For More Updates On:</p>
             <span id="hero-icon">
-                <i class="fa fa-telegram fa-2x"></i>
-                <i class="fa fa-twitter fa-2x"></i>
+                <a style="color:#fff" href="https://t.me/solanacashappchat"><i class="fa fa-telegram fa-2x"></i></a>
+                <a style="color:#fff" href="https://twitter.com/solanacash_io"><i class="fa fa-twitter fa-2x"></i></a>
             </span>
 
         <p class="hero-follow">Built On <span id="sol-underline">SOLANA</span></p>
         </div>
         
     </div>
+
+    <!-- End of Hero -->
     </section>
 
     <!-- Our Features -->
@@ -108,7 +127,7 @@
         <h2>What is solana cash?</h2>
 
         <p class="sub-info">
-            Solana Cash is a decentralized global payment system that aims to accelerate the adoption of the solana network around the world by adding more transaction capacity to the network. Join the fasted-growing blockchain community! Earn Free Sol token on every transaction on the solanaCash Mobile App.
+            SolanaCash is a decentralized global payment system with an all in one ecosystem for all your financial needs. From P2P platform to Solcard, Staking and more.
 
         </p>
 
@@ -123,6 +142,8 @@
         </div>
     </section>
 
+    <!-- End of Features -->
+
     <!-- Trading Experience -->
 
     <section id="experience">
@@ -135,26 +156,33 @@
 
         <div class="two-rows">
             <div class="left-row">
+                <div class="exp-item">
+                    <img class="exp-icon" src="images/icons/Vector (1).png" alt="">
+
+                    <h2>Convert crypto into cash </h2>
+                    <!-- <p>Enjoy safe and successful trades across our smart contract.</p> -->
+
+                </div>
                     <div class="exp-item">
                         <img class="exp-icon" src="images/icons/carbon_manage-protection.svg" alt="">
-                    <span>
+
                         <h2>manage your portfolio</h2>
-                        <p>Trade and earn your token, and keep track of them in the one place.</p>
-                    </span>
+                        <!-- <p>Trade and earn your token, and keep track of them in the one place.</p> -->
+
                     </div>
                     <div class="exp-item">
                         <img class="exp-icon" src="images/icons/Vector.png" alt="">
-                    <span>
+
                         <h2>trade securely</h2>
-                        <p>Enjoy safe and successful trades across our smart contract.</p>
-                    </span>
+                        <!-- <p>Enjoy safe and successful trades across our smart contract.</p> -->
+
                     </div>
                     <div class="exp-item">
                         <img class="exp-icon" src="images/icons/Vector-2.png" alt="">
-                    <span>
+
                         <h2>Earn SOLCH On rewards</h2>
-                        <p>Earn additional SOLCH token when you trade and also by achieving various milestone.</p>
-                    </span>
+                        <!-- <p>Earn additional SOLCH token when you trade and also by achieving various milestone.</p> -->
+  
                     </div>
             </div>
 
@@ -165,10 +193,14 @@
         </div>
     </section>
 
+    <!-- End of Experience -->
+
+    <!-- Blockchain -->
+
     <section id="Blockchain">
 
         <div class="two-rows">
-            <div class="left-row">
+            <div class="left-row leftrev2">
                 <p class="features-info">Our blockchain</p>
                 <p class="sub-info">
                     Built on the fastest blockchain technology
@@ -177,105 +209,25 @@
                 <div class="hr-wrap"><span class="hr-pad"></span> <p>Enjoy low transaction cost forever as Solana's scalability ensures transactions remain less than $0.01</p></div>
                 <div class="hr-wrap"><span class="hr-pad"></span> <p>Solana is all about speed, with 400 millisecond block times. And as hardware gets faster, so does the network.</p></div>
                 
-                <button type="button" class="btn stake">Discover Solana</button>
+                 <a href="https://solana.com/"><button type="button" class="btn stake">Discover Solana</button></a>
 
             </div>
-            <div class="align-self-center right-row">
+            <div class="align-self-center right-row rightrev2">
                 <img src="images/icons/Group 138.svg" alt="" class="align-self-center block-image">
             </div>
         </div>
 
     </section>
 
+    <!-- End of Blockchain -->
+
     <!-- Chart -->
-
-    <!-- <section id="chart">
-
-        <p class="features-info">Comparison chart</p>
-
-        <p class="sub-info">
-            Blockchain Comparison Chart, Why Solana?
-        </p>
-
-        <div class="row">
-            <div class="col">
-                <table class="table table-borderless table-start">
-                    <tr><th>List of features</th></tr>
-                    <tr><td>Transaction Per Seconds</td></tr>
-                    <tr><td>Fees</td></tr>
-                    <tr><td>Block Time</td></tr>
-                    <tr><td>Consensus Mechanism</td></tr>
-                </table>
-            </div>
-            <div class="col col-active">
-                <table class="table tab-active table-borderless">
-                    <tr><th>Solana</th></tr>
-                    <tr><td>59,000 tps</td></tr>
-                    <tr><td>$0.00001</td></tr>
-                    <tr><td>0.4 sec 
-                        (1 block)</td></tr>
-                    <tr><td>Proof of Stake</td></tr>
-                </table>
-            </div>
-            <div class="col">
-                <table class="table table-borderless">
-                    <tr><th>Ethereum</th></tr>
-                    <tr><td>17 tps</td></tr>
-                    <tr><td>$ 2</td></tr>
-                    <tr><td>5 min
-                        (35 blocks)</td></tr>
-                    <tr><td>Proof of Work</td></tr>
-                </table>
-            </div>
-            <div class="col">
-                <table class="table table-borderless">
-                    <tr><th>EOS</th></tr>
-                    <tr><td>3900 tps</td></tr>
-                    <tr><td>Free</td></tr>
-                    <tr><td>2.5 mins
-                        (2/3 of BPs)</td></tr>
-                    <tr><td>Delegated Proof
-                        of Stake</td></tr>
-                </table>
-            </div>
-            <div class="col">
-                <table class="table table-borderless">
-                    <tr><th>Cardano</th></tr>
-                    <tr><td>~250 tps</td></tr>
-                    <tr><td>$0.002</td></tr>
-                    <tr><td>~2 min</td></tr>
-                    <tr><td>Ouroboros Proof 
-                        of Stake</td></tr>
-                </table>
-            </div>
-            <div class="col">
-                <table class="table table-borderless">
-                    <tr><th>Tezos</th></tr>
-                    <tr><td>50 tps</td></tr>
-                    <tr><td>$0.00232</td></tr>
-                    <tr><td>30 min</td></tr>
-                    <tr><td>Liquid Proof of
-                        Stake</td></tr>
-                </table>
-            </div>
-            <div class="col">
-                <table class="table table-borderless">
-                    <tr><th>Stellar</th></tr>
-                    <tr><td>2000 tps</td></tr>
-                    <tr><td>$0.000001</td></tr>
-                    <tr><td>4 sec</td></tr>
-                    <tr><td>Federated Byzantine
-                        Agreement</td></tr>
-                </table>
-            </div>
-          </div> -->
-
-          <section id="chart">
+    <section id="chart">
 
             <p class="features-info">Comparison chart</p>
     
             <p class="sub-info">
-                Blockchain Comparison Chart, Why Solana?
+                Blockchain Comparison Chart
             </p>
     
             <div class="row">
@@ -314,7 +266,7 @@
                         <tr><td>3900 tps</td></tr>
                         <tr><td>Free</td></tr>
                         <tr><td>2.5 mins
-                            (2/3 of BPs)</td></tr>
+                            </td></tr>
                         <tr><td>Delegated Proof
                             of Stake</td></tr>
                     </table>
@@ -351,10 +303,9 @@
                 </div>
               </div>
 
-          <!-- Carousel -->
-        
-
     </section>
+
+    <!-- End of Chart -->
 
     <!-- Media Section -->
 
@@ -364,15 +315,30 @@
             media Mention
         </p>
 
-        <div class="media-container">
-            <img src="images/bloomberg 1.svg" alt="" class="media-image">
-            <img src="images/benzinga 1.svg" alt="" class="media-image">
-            <img src="images/mw 1.svg" alt="" class="media-image">
-            <img src="images/nasdaq 1.svg" alt="" class="media-image">
-            <img src="images/yf 1.svg" alt="" class="media-image">
+        <div class="flex-container">
+            <div class="flex-item">
+                <a href="https://www.bloomberg.com/press-releases/2021-12-15/solanacash-and-solar-team-up-an-innovative-idea-on-expanding-the-solana-ecosystem"><img src="images/bloomberg 1.svg" alt="" class="media-tab"></a> 
+            </div>
+            <div class="flex-item">
+                <a href="https://www.benzinga.com/pressreleases/21/12/24616430/solanacash-and-solar-team-up-an-innovative-idea-on-expanding-the-solana-ecosystem"><img src="images/benzinga 1.svg" alt="" class="media-tab"></a> 
+            </div>
+            <div class="flex-item">
+                <a href="https://www.marketwatch.com/press-release/solanacash-and-solar-team-up-an-innovative-idea-on-expanding-the-solana-ecosystem-2021-12-15?tesla=y"><img src="images/mw 1.svg" alt="" class="media-tab"></a> 
+            </div>
+            <div class="flex-item">
+                <a href="https://www.nasdaq.com/press-release/solanacash-and-solar-team-up%3a-an-innovative-idea-on-expanding-the-solana-ecosystem"><img src="images/nasdaq 1.svg" alt="" class="media-tab"></a> 
+            </div>
+            <div class="flex-item">
+                <a href="https://finance.yahoo.com/news/solanacash-solar-team-innovative-idea-114900229.html"><img src="images/yf 1.svg" alt="" class="media-tab"></a> 
+            </div>
+            <div class="flex-item">
+                <a href="https://coinmarketcap.com/currencies/solanacash/"><img src="images/icons/coinmarketcap-logo 1.svg" alt="" class="media-tab"></a> 
+            </div>
         </div>
 
     </section>
+
+    <!-- End of Media -->
 
     <!-- Ecosystem -->
 
@@ -381,63 +347,106 @@
         <p class="sub-info">
             Core Ecosystem
         </p>
-
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="card-1">
-                  <div class="card-body">
-                    <h5 class="card-title">Solana Cash APP</h5>
-                    <p class="card-text">Introducing the SolCard Visa , spend and make purchases online anywhere and anytime using SolanaCash</p>
-                    <a href="#" class="btn btn-card">Learn more</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="card-2">
-                  <div class="card-body">
-                    <h5 class="card-title">SolCard</h5>
-                    <p class="card-text">Introducing the SolCard, spend and make purchases online anywhere and anytime using SolanaCash</p>
-                    <a href="#" class="btn btn-card">Learn more</a>
-                  </div>
+        
+        <div class="eco-box-mobile">
+            <div class="card-1">
+                <div class="card-body">
+                  <h5 class="card-title">P2P Dapp</h5>
+                  <p class="card-text">  Trade your crypto safely for fiat (or other cryptocurrencies) privately and securely using solanacash P2P network.</p>
+                  <a href="https://solanacash.gitbook.io/solana-cash/core-ecosystem-utility/decentralized-p2p-platform" class="btn btn-card">Trade now</a>
                 </div>
               </div>
         </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="card-3">
-                  <div class="card-body">
-                    <h5 class="card-title">Bridge</h5>
-                    <p class="card-text">Token bridge with multiple blockchain</p>
-                    <a href="#" class="btn btn-card">Learn more</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="card-4">
-                  <div class="card-body">
+
+        <div class="eco-box-mobile">
+            <div class="card-2">
+                <div class="card-body">
                     <h5 class="card-title">Solanacash Staking</h5>
                     <p class="card-text">Lock your solana cash token to earn more rewards with attractive APY</p>
-                    <a href="#" class="btn btn-card">Stake now</a>
-                  </div>
+                    <a href="https://staking.solanacash.io/" class="btn btn-card">Stake now</a>
+                 
                 </div>
               </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <div class="card last-card">
-                  <div class="card-body last-cd">
-                    <h5 class="card-title">P2P dapp</h5>
-                    <span id="group-card">
-                        <p class="card-text">Trade your crypto safely for fiat (or other cryptocurrencies) privately and securely using solanacash P2P network.</p>
-                        <a href="#" class="btn btn-cardd">Learn more</a>
-                    </span>
 
-                  </div>
+        <div class="eco-box-mobile">
+            <div class="card-3">
+                <div class="card-body">
+                    <h5 class="card-title">Solana Cash APP</h5>
+                <p class="card-text">User friendly mobile app to send and receive funds safely with maximum security.</p>
+                <a href="https://solanacash.gitbook.io/solana-cash/core-ecosystem-utility/solanacash-app" class="btn btn-card">Learn more</a>
+                  
+                </div>
+              </div>
+        </div>
+
+        <div class="eco-box-mobile">
+            <div class="card-4">
+                <div class="card-body">
+                    <h5 class="card-title">SolCard</h5>
+                    <p class="card-text">Introducing the SolCard, spend and make purchases online anywhere and anytime using SolanaCash</p>
+                    <a href="https://solanacash.gitbook.io/solana-cash/core-ecosystem-utility/solcard" class="btn btn-card">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="eco-box-mobile">
+            <div class="card-5">
+                <div class="card-body">
+                <h5 class="card-title">Bridge</h5>
+                  <p class="card-text">Token bridge with multiple blockchain</p>
+                  <a href="https://solanacash.gitbook.io/solana-cash/core-ecosystem-utility/bridge" class="btn btn-card">Learn more</a>
+            </div>
+            </div>
+        </div>
+
+        <div class="eco-box">
+            <div class="card-1">
+                <div class="card-body">
+                  <h5 class="card-title"> P2P dapp</h5>
+                  <p class="card-text">Trade your crypto safely for fiat (or other cryptocurrencies) privately and securely using solanacash P2P network.</p>
+                  <a href="https://solanacash.gitbook.io/solana-cash/core-ecosystem-utility/decentralized-p2p-platform" class="btn btn-card">Learn more</a>
+                </div>
+              </div>
+              <div class="card-2">
+                <div class="card-body">
+                  <h5 class="card-title">Solanacash Staking</h5>
+                  <p class="card-text">Lock your solana cash token to earn more rewards with attractive APY</p>
+                  <a href="https://staking.solanacash.io/" class="btn btn-card">Stake Now</a>
+                </div>
+              </div>
+              <div class="card-3">
+                <div class="card-body">
+                  <h5 class="card-title">Solana Cash APP</h5>
+                  <p class="card-text">User friendly mobile app to send and receive funds safely with maximum security.</p>
+                  <a href="https://solanacash.gitbook.io/solana-cash/core-ecosystem-utility/solanacash-app" class="btn btn-card">Learn more</a>
+                </div>
+              </div>
+            <div class="card-4">
+                <div class="card-body">
+                  <h5 class="card-title">Solcard</h5>
+                  <p class="card-text">Introducing the SolCard, spend and make purchases online anywhere and anytime using SolanaCash</p>
+                  <a href="https://solanacash.gitbook.io/solana-cash/core-ecosystem-utility/solcard" class="btn btn-card">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="eco-2">
+            <div class="last-card">
+                <div class="last-cd">
+                  <h5 class="card-title">Bridge</h5>
+                  <span id="group-card">
+                      <p class="card-text">Token bridge with multiple blockchain</p>
+                      <a href="https://solanacash.gitbook.io/solana-cash/core-ecosystem-utility/bridge" class="btn btn-cardd">Learn more</a>
+                  </span>
                 </div>
               </div>
         </div>
 
     </section>
+
+     <!-- End of Ecosystem -->
 
     <!-- Roadmap Section -->
 
@@ -458,7 +467,7 @@
                         <img src="images/icons/vector.svg" alt="" class="rm-icon">
                         <span class="rm-line"></span>
                         <div class="rm-card">  
-                            <h3>Q3</h3>
+                            <h3>Q1</h3>
                             <ul>
                                 <li>Business Concept Formation</li>
                                 <li>Core Team Formation</li>
@@ -473,12 +482,29 @@
                         <img src="images/icons/vector.svg" alt="" class="rm-icon">
                         <span class="rm-line"></span>
                         <div class="rm-card">  
+                            <h3>Q2</h3>
+                            <ul>
+                                <li>Website & Social media creation</li>
+                                <li>Solana Cash token creation & development</li>
+                                <li>Pitch Deck & Litepaper</li>
+                                <li>Seed Round</li>    
+                                <li>Private Sale</li>                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="rm-container">
+                        <p>2022</p>
+                        <img src="images/icons/vector.svg" alt="" class="rm-icon">
+                        <span class="rm-line"></span>
+                        <div class="rm-card">  
                             <h3>Q3</h3>
                             <ul>
-                                <li>Business Concept Formation</li>
-                                <li>Core Team Formation</li>
-                                <li>Strategic Planning</li>
-                                <li>Research and Analysis</li>                    
+                                <li>Public Sale IDO</li>
+                                <li>Launch on Raydium</li>
+                                <li>BSC Bridge on Solanacash (Worm Hole)</li>
+                                <li>Primary CEX Listing</li>
+                                <li>Pancakeswap Listing</li>    
+                                <li>Solana Cash Staking functions release</li>                
                             </ul>
                         </div>
                     </div>
@@ -487,31 +513,30 @@
               <div class="carousel-item" data-bs-interval="0">
                 <div class="rm-row">
                     <div class="rm-container">
-                        <p>2021</p>
+                        <p>2022</p>
                         <img src="images/icons/vector.svg" alt="" class="rm-icon">
                         <span class="rm-line"></span>
                         <div class="rm-card">  
-                            <h3>Q3</h3>
+                            <h3>Q4</h3>
                             <ul>
-                                <li>Business Concept Formation</li>
-                                <li>Core Team Formation</li>
-                                <li>Strategic Planning</li>
-                                <li>Research and Analysis</li>                    
+                                <li>Smart Contract Audit Report by Certik</li>
+                                <li>Excessive Marketing </li>
+                                <li>Partnerships</li>
+                                <li>Coin Market Cap & Coingecko Listing</li>                    
                             </ul>
                         </div>
                     </div>
                     <div class="rm-container">
-                        <p>2021</p>
+                        <p>2022</p>
                         <img src="images/icons/vector.svg" alt="" class="rm-icon">
                         <span class="rm-line"></span>
                         <div class="rm-card">  
-                            <h3>Q3</h3>
+                            <h3>Q5</h3>
                             <ul>
-                                <li> <p>Business Concept Formation</p>
-                                    </li>
-                                <li>Core Team Formation</li>
-                                <li>Strategic Planning</li>
-                                <li>Research and Analysis</li>                    
+                                <li>CEX Listings</li>
+                                <li>P2P Beta Version Release</li>
+                                <li>Solanacash Mobile app Development</li>
+                                <li>Swap Feature Development</li>               
                             </ul>
                         </div>
                     </div>
@@ -528,8 +553,9 @@
             </button>
           </div>
           
-
     </section>
+
+    <!-- Responsive Roadmap -->
 
     <section id="roadmapp">
 
@@ -548,7 +574,7 @@
                         <img src="images/icons/vector.svg" alt="" class="rm-icon">
                         <span class="rm-line"></span>
                         <div class="rm-card">  
-                            <h3>Q3</h3>
+                            <h3>Q1</h3>
                             <ul>
                                 <li>Business Concept Formation</li>
                                 <li>Core Team Formation</li>
@@ -566,12 +592,17 @@
                         <img src="images/icons/vector.svg" alt="" class="rm-icon">
                         <span class="rm-line"></span>
                         <div class="rm-card">  
-                            <h3>Q3</h3>
+                            <h3>Q2</h3>
                             <ul>
-                                <li>Business Concept Formation</li>
-                                <li>Core Team Formation</li>
-                                <li>Strategic Planning</li>
-                                <li>Research and Analysis</li>                    
+                                <li>Website & Social media creation</li>
+                                <li>Solana Cash token creation & development</li>
+                                <li>Pitch Deck & Litepaper</li>
+                                <li>Seed Round</li>    
+                                <li>BSC Bridge on SolanaCash</li>   
+                                <li>Ethereum Bridge on SolanaCash</li> 
+                                <li>Polygon Bridge on SolanaCash</li> 
+                                <li>CoinMarketCap Listing</li> 
+     
                             </ul>
                         </div>
                     </div>
@@ -586,11 +617,12 @@
                         <div class="rm-card">  
                             <h3>Q3</h3>
                             <ul>
-                                <li> <p>Business Concept Formation</p>
-                                    </li>
-                                <li>Core Team Formation</li>
-                                <li>Strategic Planning</li>
-                                <li>Research and Analysis</li>                    
+                                <li>Public Sale IDO</li>
+                                <li>Launch on Raydium</li>
+                                <li>BSC Bridge on Solanacash (Worm Hole)</li>
+                                <li>Primary CEX Listing</li>
+                                <li>Pancakeswap Listing</li>    
+                                <li>Solana Cash Staking functions release</li>                
                             </ul>
                         </div>
                     </div>
@@ -599,16 +631,34 @@
               <div class="carousel-item" data-bs-interval="0">
                 <div class="rm-row">
                     <div class="rm-container">
-                        <p>2021</p>
+                        <p>2022</p>
                         <img src="images/icons/vector.svg" alt="" class="rm-icon">
                         <span class="rm-line"></span>
                         <div class="rm-card">  
-                            <h3>Q3</h3>
+                            <h3>Q4</h3>
                             <ul>
-                                <li>Business Concept Formation</li>
-                                <li>Core Team Formation</li>
-                                <li>Strategic Planning</li>
-                                <li>Research and Analysis</li>                    
+                                <li>Smart Contract Audit Report by Certik</li>
+                                <li>Excessive Marketing </li>
+                                <li>Partnerships</li>
+                                <li>Coin Market Cap & Coingecko Listing</li>                    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="0">
+                <div class="rm-row">
+                    <div class="rm-container">
+                        <p>2022</p>
+                        <img src="images/icons/vector.svg" alt="" class="rm-icon">
+                        <span class="rm-line"></span>
+                        <div class="rm-card">  
+                            <h3>Q5</h3>
+                            <ul>
+                                <li>CEX Listings</li>
+                                <li>P2P Beta Version Release</li>
+                                <li>Solanacash Mobile app Development</li>
+                                <li>Swap Feature Development</li>               
                             </ul>
                         </div>
                     </div>
@@ -625,95 +675,98 @@
             </button>
           </div>
           
-
     </section>
+
+    <!-- End of Roadmap -->
 
 
     <!-- Tokenomics Section -->
 
     <section id="tokenomics">
         <div class="two-rows">
-            <div class="left-row">
+            <div class="left-row leftrev3">
                 <h2>Our Tokenomics</h2>
 
             <p class="sub-info">
                 Total Supply: 50,000,000<br>
-Launch Price:  $0.12
+Launch Price:  TBD
             </p>
 
             <div class="progress-box">
                 <span class="left-progress">Seed Sale</span>
                 <span class="right-progress">3%</span>
                 <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 3%; background-color: #14F195;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bar3" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
             </div>
             <div class="progress-box">
                 <span class="left-progress">Private Sale</span>
-                <span class="right-progress">20%</span>
+                <span class="right-progress">10%</span>
                 <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 20%; background-color: #14F195;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bar10" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
             </div>
             <div class="progress-box">
                 <span class="left-progress">IDO</span>
                 <span class="right-progress">5%</span>
                 <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 5%; background-color: #14F195;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bar5" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
             </div>
             <div class="progress-box">
                 <span class="left-progress">Project Development</span>
                 <span class="right-progress">10%</span>
                 <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 10%; background-color: #14F195;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bar10" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
             </div>
             <div class="progress-box">
                 <span class="left-progress">Rewards/Staking</span>
-                <span class="right-progress">30%</span>
+                <span class="right-progress">40%</span>
                 <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 30%; background-color: #14F195;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bar40" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
             </div>
             <div class="progress-box">
                 <span class="left-progress">Team</span>
-                <span class="right-progress">13%</span>
+                <span class="right-progress">10%</span>
                 <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 13%; background-color: #14F195;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bar10" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
             </div>
             <div class="progress-box">
                 <span class="left-progress">Advisors</span>
                 <span class="right-progress">2%</span>
                 <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 2%; background-color: #14F195;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bar2" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
             </div>
             <div class="progress-box">
                 <span class="left-progress">Marketing</span>
                 <span class="right-progress">10%</span>
                 <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 10%; background-color: #14F195;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bar10" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
             </div>
             <div class="progress-box">
                 <span class="left-progress">Reserve</span>
                 <span class="right-progress">10%</span>
                 <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 10%; background-color: #14F195;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bar10" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
             </div>
 
 
             </div>
 
-            <div class="align-self-center right-row">
+            <div class="align-self-center right-row rightrev3">
                 <img src="images/Asset 1 6.svg" alt="" class="token-image">
             </div>
         </div>
 
     </section>
+
+    <!-- End of Tokenomis -->
 
     <!-- Our Partners -->
 
@@ -723,15 +776,17 @@ Launch Price:  $0.12
             Our Partners
         </h3>
 
-        <img src="images/logo.0b009287 1.svg" alt="" class="solar-dex">
+        <a href="https://solardex.finance/"><img src="images/logo.0b009287 1.svg" alt="" class="solar-dex"></a> 
 
         <div class="stake-box">
             <p class="features-info">STAKING IS LIVE</p>
             <p class="stake-p">Dont miss out, join staking platform</p>
-            <button class="stake">Stake Now</button>
+             <a href="https://staking.solanacash.io/"><button class="stake">Stake Now</button></a>
         </div>
 
     </section>
+
+    <!-- End of Partners -->
 
     <!-- Footer -->
 
@@ -739,23 +794,23 @@ Launch Price:  $0.12
         <div id="footer-top">
             <div class="panel-top">
             <div class="link-panel">
-                <h2>Quick-Links</h2>
-                <a href="">Home</a>
-                <a href="">Home</a>
-                <a href="">Home</a>
-                <a href="">Home</a>
+                <h2>Quick Links</h2>
+                <a href="https://solanacash.gitbook.io/solana-cash/abstract/what-is-solana-cash">Litepaper</a>
+                <a href="https://drive.google.com/file/d/1XC-2v7UXVqsUbNdZQmp-Bh4dNKHLM04B/view?usp=sharing">Pitch deck</a>
+                <a href="https://solana.com/ecosystem/solanacash">Solana Ecosystem</a>
+                <a href="https://www.certik.com/projects/solana-cash">Certik Audit</a>
             </div>
             <div class="link-panel">
                 <h2>Explorer</h2>
-                <a href="">Solscan</a>
-                <a href="">Polygonscan</a>
-                <a href="">Etherscan</a>
-                <a href="">Bscscan</a>
+                <a href="https://solscan.io/token/EKSM2sjtptnvkqq79kwfAaSfVudNAtFYZSBdPe5jeRSt">Solscan</a>
+                <a href="https://polygonscan.com/address/0x97de33d03e5ebab173c4eb5a7114303d6c5a3b66">Polygonscan</a>
+                <a href="https://etherscan.io/address/0x4946DB03b7E7bDA0383612AfbC4119A4E8464642">Etherscan</a>
+                <a href="https://bscscan.com/address/0x7c8acc8803c5a9637f31713adab5b4cca5525037">Bscscan</a>
             </div>
             <div class="link-panel">
                 <h2>Legal</h2>
-                <a href="">Terms & Condition</a>
-                <a href="">Risk Disclosure</a>
+                <a href="https://www.solanacash.io/legal/terms-and-conditions">Terms & Conditions</a>
+                <a href="https://www.solanacash.io/legal/risk-disclosure-policy">Risk Disclosure</a>
             </div>
             <div class="link-panell">
                 <h2>Product</h2>
@@ -764,32 +819,32 @@ Launch Price:  $0.12
             </div>
             <div class="link-panell">
                 <h2>Community</h2>
-                <a href=""><i class="fa fa-twitter"></i> Twitter</a>
+                <a href="https://twitter.com/solanacash_io"><i class="fa fa-twitter"></i> Twitter</a>
                 <a href=""><i class="fa fa-linkedin"></i> LinkedIn</a>
-                <a href=""><i class="fa fa-instagram"></i> Instagram</a>
+                <a href="https://instagram.com/solanacash_io"><i class="fa fa-instagram"></i> Instagram</a>
                 <a href=""><i class="fa fa-medium"></i> Medium</a>
                 <a href=""><i class="fa fa-facebook"></i> Facebook</a>
-                <a href=""><i class="fa fa-telegram"></i> Telegram</a>
+                <a href="https://t.me/solanacashappchat"><i class="fa fa-telegram"></i> Telegram</a>
             </div>
             </div>
             <div class="panel-foot">
                 <div class="link-panel">
                     <h2>Product</h2>
-                    <a href="">P2P Mobile App</a>
-                    <a href="">Staking Platform</a>
+                    <a href="">P2P Platform</a>
+                    <a href="">Staking Platform</a> 
                 </div>
                 <div class="link-panel">
                     <h2>Community</h2>
-                    <a href=""><i class="fa fa-twitter"></i> Twitter</a>
-                    <a href=""><i class="fa fa-linkedin"></i> LinkedIn</a>
-                    <a href=""><i class="fa fa-instagram"></i> Instagram</a>
-                    <a href=""><i class="fa fa-medium"></i> Medium</a>
-                    <a href=""><i class="fa fa-facebook"></i> Facebook</a>
-                    <a href=""><i class="fa fa-telegram"></i> Telegram</a>
+                    <a href="https://twitter.com/solanacash_io"><i class="fa fa-twitter"></i> Twitter</a>
+                    <a href="https://www.linkedin.com/company/solanacash-io/"><i class="fa fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://instagram.com/solanacash_io"><i class="fa fa-instagram"></i> Instagram</a>
+                    <a href="https://medium.com/@solanacashapp"><i class="fa fa-medium"></i> Medium</a>
+                    <a href="https://web.facebook.com/Solana-Cash-104634308709386"><i class="fa fa-facebook"></i> Facebook</a>
+                    <a href="https://t.me/solanacashappchat"><i class="fa fa-telegram"></i> Telegram</a>
                 </div>
                 <div class="link-panel lp">
                     <h2>Product</h2>
-                    <a href="">P2P Mobile App</a>
+                    <a href="">P2P Platform</a>
                     <a href="">Staking Platform</a>
                 </div>
             </div>
@@ -800,11 +855,10 @@ Launch Price:  $0.12
         <p style="text-align: center;">© 2021 Solanacash. All Rights Reserved.</p>
     </section>
 
-   
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
